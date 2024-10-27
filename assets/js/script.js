@@ -60,3 +60,10 @@ function setActive(button) {
     }
     button.classList.add('active-btn');
 }
+function setActiveNav(button) {
+    const activeButtonNav = document.querySelector('.active');
+    if (activeButtonNav) {
+        activeButtonNav.classList.remove('active');
+    }
+    button.classList.add('active');
+}
