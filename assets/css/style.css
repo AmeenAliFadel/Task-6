@@ -34,12 +34,6 @@ header {
     background-color: #e1ac56 !important;
     color: white !important;
 }
-
-.flex-reverse {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     background-image: none;
@@ -63,7 +57,7 @@ header {
     background-color: #efeee8;
 }
 
-.card-text {
+.card-text,.span {
     color: #b67a2f;
 }
 
